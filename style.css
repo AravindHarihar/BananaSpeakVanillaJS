@@ -1,0 +1,70 @@
+:root
+{
+    --primary-color: #FCD34D;
+}
+
+body
+{
+    background-image: url("images/banana.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;  
+    font-family: 'Gowun Dodum', sans-serif;
+    margin: 0px;
+}
+
+.nav
+{   
+    display: block;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: var(--primary-color);
+    color: black;
+    padding: 1px;
+}
+
+.section 
+{
+    align-content: center;
+}
+
+#btn
+{
+    display: block;
+    
+    margin: 2rem auto;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    
+
+}
+
+.translation
+{
+    margin: 1rem 28rem;
+
+}
+
+.footer
+{
+   position: fixed;
+   font-weight: bold;
+   background-color: var(--primary-color);
+   bottom: 0%;
+   height: 60px;
+   width: 100%;
+   padding: 10px 2px;
+   text-align: center;
+   color: black;
+   /* border-bottom-left-radius: 1rem; */
+
+}
+
+
+h1{
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 2rem auto;
+    color: black;
+    padding: 1px;
+}

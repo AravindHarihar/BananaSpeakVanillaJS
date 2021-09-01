@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
@@ -11,16 +13,54 @@
 </head>
 
 <body>
-    <h1>Talk Banana</h1>
+    
+    <style>
+        textarea {
+
+             width: 40%;
+            height: 10vh;
+            display: block;
+            margin: auto;
+            padding: 1rem;  
+          
+        }
+
+        #output 
+        {
+            /* border: 1px solid black;
+            width: 40%;
+            height: 10vh;
+            display: block;
+            margin: 1rem 28rem;
+            padding: 1rem; */
+
+            width: 40%;
+            height: 10vh;
+            display: block;
+            margin: auto;
+            padding: 1rem;
+          
+
+        }
+    </style>
+
+    <div class="nav">
+        
+        <h1 style="text-align: center;">Minion Translator</h1>
+    </div>
+    <h1>Type your sentance and click on Translate</h1>
 
     <textarea name="" id="txt-input" cols="30" rows="10" placeholder="Type your message for translation"></textarea>
     <br>
-    <button id="btn">Click Me</button>
+    <button id="btn"> Translate</button>
 
-    <div> Translated Text:</div>
-    <div id="output" style="border: 1px solid black; width: 80%; height: 10vh; margin: 1rem; padding: 1rem;"></div>
+    <div id="output" class="output" cols="30" rows="10" style="border: black 1px solid;"></div>
 
     <script src="app.js" type="text/javascript"></script>
+
+    <footer class="footer">
+        Thanks for checking my project
+    </footer>
 </body>
 
 </html> 

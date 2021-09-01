@@ -16,15 +16,14 @@ function errorHandler(error){
 }
 
 function clickHandler(){
-    //outputDiv.innerText = "asdadjkajdhanbd  " + txtInput.value;
-
+    console.log("Button clicked")
     var inputText = txtInput.value;
 
     fetch(getTranslationURL(inputText)).then(response => response.json())
     .then(json => {
         var translatedText = json.contents.translated;
         outputDiv.innerText = translatedText;
-        //console.log(json.contents.translated)
+    
     })
     .catch(errorHandler)
 
